@@ -53,7 +53,7 @@ public class PagaBronca {
             total += multiplicador;
             System.out.println("Puntuación de la bronca " + contador + ": " + total);
             System.out.println("¿Quieres añadir otra bronca? (S/N): ");
-            bronca = teclado.next();
+            bronca = teclado.next().toLowerCase();
             bronca2 = bronca.charAt(0);
             System.out.println("-------------------------------------------");
             contador++;
